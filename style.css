@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e2e2e2;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 24px;
+    background: rgb(254, 254, 254);
+    border-radius: 12px;
+    
+}
+input {
+    background-color: #d8dbdd;
+    width: 95%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-bottom: #39495c;
+    margin-bottom: 4.5%;
+    
+}
+.bnt_Calcular {
+    border-radius: 7px;
+    background-color: rgb(44, 93, 173);
+    margin-top: 5%;
+    width: 95%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+label{
+    font-weight: 700;
+}
+h1 {
+    color: rgb(73, 93, 149);
+    text-align: center;
+    text-shadow: #073266;
+}
+.Cal{
+    size: 12%;
+    color: #fff;
+}
+#resultado {
+    font-size: 18px;
+    font-weight: comic;
+    text-align: center;
+
+}
+h1 {
+    color: rgb(73, 93, 149);
+    text-align: center;
+    text-shadow: #073266;
+}
+
+.animacaoCor {
+    animation: mudaCor 3s infinite linear;
+}
+
+@keyframes mudaCor {
+    0% {
+        color: #179199;
+        text-shadow: 0 0 5px #179199;
+    }
+
+    50% {
+        color: #3a06d7;
+        text-shadow: 0 0 10px #3a06d7;
+    }
+
+    100% {
+        color: #179199;
+        text-shadow: 0 0 5px #179199;
+    }
+}
